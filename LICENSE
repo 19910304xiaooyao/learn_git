@@ -1,1 +1,13 @@
  这是一个LICENSE文本文件。
+暂存区index：
+index暂存区：标记了你当前工作目录中，哪些内容是被git管理的。
+index暂存区：是干净的，工作区有修改。
+
+1.修改已经放在了暂存区
+	$ git reset HEAD readme.txt
+	记得如何丢弃工作区的修改吗?
+	$ git checkout -- readme.txt
+2.修改之在工作区
+	记得如何丢弃工作区的修改吗?
+	$ git checkout -- readme.txt
+	
