@@ -26,3 +26,8 @@ checkout(1):从本地库中恢复
 git rm -- file
 git commit -m "rm file"
 
+创建分支dev并切换到dev分支
+git branch -b dev
+相当于:
+git branch dev
+git checkout dev
