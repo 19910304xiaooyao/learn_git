@@ -22,6 +22,7 @@ index暂存区：是干净的，工作区有修改。
 
 checkout(1):从本地库中恢复
 命令git rm用于删除一个文件。如果一个文件已经被提交到版本库，那么你永远不用担心误删，但是要小心，你只能恢复文件到最新版本，你会丢失最近一次提交后你修改的内容。	
+checkout(2):也可以切换分支
 
 git rm -- file
 git commit -m "rm file"
@@ -31,3 +32,5 @@ git branch -b dev
 相当于:
 git branch dev
 git checkout dev
+
+
