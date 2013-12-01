@@ -8,3 +8,4 @@ Git创建了一个dev分支
 Git删除了一个dev分支
 Git创建一个分支是快速和简单的。
 Git再次创建了一个dev分支
+Git修复bug
