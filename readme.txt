@@ -1,2 +1,2 @@
-Git 是一个分布式的版本控制系统
-Git is free software
+Git是一个分布式的版本控制系统。
+Git是在GPL下分发的免费软件。
