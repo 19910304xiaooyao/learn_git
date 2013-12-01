@@ -4,3 +4,4 @@ Git有一个暂存区。
 Git跟踪并管理的是修改，而非文件。
 Git跟踪文件的变化。
 Git remote
+Git创建了一个dev分支
