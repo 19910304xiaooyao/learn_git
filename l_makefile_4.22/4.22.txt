@@ -1,0 +1,11 @@
+1: 如果想要执行两个命令，则两个命令写在同一行且用逗号隔开。
+2: 如果想要执行的命令忽略错误，则在命令前加一个“-”减号。
+3: 嵌套的Makefile写法：
+	假设我们有一个子目录subdir,这个目录下有一个Makfile文件，来指明这个目录下的文件的编译规则。那么我们总控的Makefile可以这样写：
+		subsystem：
+		cd subdir && $(MAKE)
+	等价与：
+		subsystem:
+		$(MAKE) -C subdir
+	总控的Makefile的变量可以传递到下级，但不会覆盖下层的Makefile 中所定义的变量，除非制定”-e” 参数。
+
